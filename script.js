@@ -64,6 +64,155 @@ reproducirTodo.onclick = function(){
 }
 // FIN DE REPRODUCIR TODO
 
+
+// INICIO DE REPRODUCIR SELECCION
+var reproducirSeleccion = document.getElementById("reproducirSeleccion");
+function togglePlayPauseSelection(){
+    v_1.play();
+    v_8.play();
+    v_15.play();
+    v_22.play();
+}
+reproducirSeleccion.onclick = function(){
+    togglePlayPauseSelection();
+}
+// FIN DE REPRODUCIR SELECCION
+// INICIO DE REPRODUCIR INSERCION
+var reproducirInsercion = document.getElementById("reproducirInsercion");
+function togglePlayPauseInsercion(){
+    v_2.play();
+    v_9.play();
+    v_16.play();
+    v_23.play();
+}
+reproducirInsercion.onclick = function(){
+    togglePlayPauseInsercion();
+}
+// FIN DE REPRODUCIR INSERCION
+// INICIO DE REPRODUCIR MERGE-SORT
+var reproducirMerge = document.getElementById("reproducirMerge");
+function togglePlayPauseMerge(){
+    v_3.play();
+    v_10.play();
+    v_17.play();
+    v_24.play();
+}
+reproducirMerge.onclick = function(){
+    togglePlayPauseMerge();
+}
+// FIN DE REPRODUCIR MERGE-SORT
+// INICIO DE REPRODUCIR QUICK-SORT
+var reproducirQuick = document.getElementById("reproducirQuick");
+function togglePlayPauseQuick(){
+    v_4.play();
+    v_11.play();
+    v_18.play();
+    v_25.play();
+}
+reproducirQuick.onclick = function(){
+    togglePlayPauseQuick();
+}
+// FIN DE REPRODUCIR QUICK-SORT
+// INICIO DE REPRODUCIR BURBUJA
+var reproducirBurbuja = document.getElementById("reproducirBurbuja");
+function togglePlayPauseBurbuja(){
+    v_5.play();
+    v_12.play();
+    v_19.play();
+    v_26.play();
+}
+reproducirBurbuja.onclick = function(){
+    togglePlayPauseBurbuja();
+}
+// FIN DE REPRODUCIR BURBUJA
+// INICIO DE REPRODUCIR SHELL
+var reproducirShell = document.getElementById("reproducirShell");
+function togglePlayPauseShell(){
+    v_6.play();
+    v_13.play();
+    v_20.play();
+    v_27.play();
+}
+reproducirShell.onclick = function(){
+    togglePlayPauseShell();
+}
+// FIN DE REPRODUCIR SHELL
+// INICIO DE REPRODUCIR HEAP
+var reproducirShell = document.getElementById("reproducirHeap");
+function togglePlayPauseHeap(){
+    v_7.play();
+    v_14.play();
+    v_21.play();
+    v_28.play();
+}
+reproducirHeap.onclick = function(){
+    togglePlayPauseHeap();
+}
+// FIN DE REPRODUCIR HEAP
+
+
+// INICIO DE REPRODUCIR RANDOM
+var reproducirRandom = document.getElementById("reproducirRandom");
+function togglePlayPauseRandom(){
+    v_1.play();
+    v_2.play();
+    v_3.play();
+    v_4.play();
+    v_5.play();
+    v_6.play();
+    v_7.play();
+}
+reproducirRandom.onclick = function(){
+    togglePlayPauseRandom();
+}
+// FIN DE REPRODUCIR RANDOM
+// INICIO DE REPRODUCIR CASI ORDENADO
+var reproducirCasiOrdenado = document.getElementById("reproducirCasiOrdenado");
+function togglePlayPauseCasi(){
+    v_8.play();
+    v_9.play();
+    v_10.play();
+    v_11.play();
+    v_12.play();
+    v_13.play();
+    v_14.play();
+}
+reproducirCasiOrdenado.onclick = function(){
+    togglePlayPauseCasi();
+}
+// FIN DE REPRODUCIR CASI ORDENADO
+// INICIO DE REPRODUCIR INVERTIDO
+var reproducirInvertido = document.getElementById("reproducirInvertido");
+function togglePlayPauseInvertido(){
+    v_15.play();
+    v_16.play();
+    v_17.play();
+    v_18.play();
+    v_19.play();
+    v_20.play();
+    v_21.play();
+}
+reproducirInvertido.onclick = function(){
+    togglePlayPauseInvertido();
+}
+// FIN DE REPRODUCIR INVERTIDO
+// INICIO DE REPRODUCIR REPETIDO
+var reproducirRepetido = document.getElementById("reproducirRepetido");
+function togglePlayPauseRepetido(){
+    v_22.play();
+    v_23.play();
+    v_24.play();
+    v_25.play();
+    v_26.play();
+    v_27.play();
+    v_28.play();
+}
+reproducirRepetido.onclick = function(){
+    togglePlayPauseRepetido();
+}
+// FIN DE REPRODUCIR INVERTIDO
+
+
 // VIDEO 1 ---------------------------------------------------------------------------------------------
 var btn = document.getElementById("play-pause");
 var juice = document.querySelector('.progress_juice');
