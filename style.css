@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.titulo {
+    margin-left: 7%;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.titulo h5 {
+    color: rgb(0,0,0,.5);
+}
+.videosT {
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 1px 1px 5px 1px rgb(0,0,0,.2);
+    margin: 1rem; /* Centrar Div*/
+    padding: .5rem;
+    text-align: center;
+}
+.videosT .active {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    appearance: none;
+	background-color: white;
+	border: 0;
+	padding: 10px 15px;
+	border-radius: 3px;
+	cursor: pointer;
+	transition-duration: 0.25s;
+}
+.active:hover {
+    box-shadow: 1px 1px 1px rgb(0,0,0,.2);
+    color: rgb(0,0,0,.4);
+}
+.active:active {
+    box-shadow: inset 1px 1px 5px 1px rgb(0,0,0,.3);
+    color: black;
+}
+.fa-play {
+    color: rgb(139, 160, 255);
+}
+.prin {
+    color: rgb(255, 83, 83);
+}
+.videosT table {
+    margin: 0 auto;
+}
+.videosT video {
+    margin: 0;
+    display: inline-block;
+    width: 140px;
+    height: auto;
+    box-shadow: 1px 1px 2px 1px rgb(0,0,0,.3);
+}
+@media (max-width: 1140px) {
+    .active {
+        font-size: 15px;
+    }
+    .videosT {
+        padding: 1.5rem;
+        margin: 1.5rem;
+    }
+    .videosT video {
+        width: 110px;
+        height: auto;
+    }
+    .titulo {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 960px) {
+    .active {
+        font-size: 14px;
+    }
+    .videosT {
+        padding: 2rem;
+        margin: 1.5rem;
+    }
+    .videosT video {
+        width: 90px;
+        height: auto;
+    }
+    .titulo {
+        margin-left: 20px;
+    }
+    .footer {
+        text-align: center;
+        position: fixed;
+    }
+}
+@media (max-width: 800px) {
+    .active {
+        font-size: 10px;
+    }
+    .videosT {
+        padding: 2.5rem;
+        margin: 1.5rem;
+    }
+    .videosT video {
+        width: 80px;
+        height: auto;
+    }
+    .titulo {
+        margin-left: 20px;
+    }
+    .footer {
+        text-align: center;
+        position: fixed;
+    }
+}
+/* INICIO EDICION DE REPRODUCCIÓN DE VIDEOS */
+.c-video {
+    position: relative;
+    overflow: hidden;
+}
+.c-video:hover .controls {
+    transform: translateY(0);
+}
+.c-video:hover .progress_bar {
+    margin-top: 0;
+}
+.controls {
+    display: flex; /* Para que todo este bien distribuido */
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    flex-wrap: wrap;
+    background: rgb(250,250,250,.4);
+    transform: translateY(100%);
+    transition-duration: .2s;
+}
+.buttons button{
+    background: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.buttons button:before {
+    content: url("https://img.icons8.com/ios/26/000000/play.png");
+    -webkit-font-smoothing: antialiased;
+}
+.buttons button.play:before {
+    content: url("https://img.icons8.com/ios/26/000000/play.png");
+}
+.buttons button.pause:before {
+    content: url("https://img.icons8.com/ios/26/000000/pause.png");
+}
+.progress_bar {
+    margin-top: -5px;
+    height: 2px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+}
+.progress_juice, .progress_juice2,.progress_juice3,.progress_juice4,.progress_juice5,.progress_juice6,
+.progress_juice7,.progress_juice8,.progress_juice9,.progress_juice10,.progress_juice11,.progress_juice12,
+.progress_juice13,.progress_juice14,.progress_juice15,.progress_juice16,.progress_juice17,.progress_juice18,
+.progress_juice19,.progress_juice20,.progress_juice21,.progress_juice22,.progress_juice23,.progress_juice24,
+.progress_juice25,.progress_juice26,.progress_juice27,.progress_juice28 {
+    width: 0;
+    height: 2px;
+    background-color: red;
+}
+/* FIN EDICION DE REPRODUCCIÓN DE VIDEOS */
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+}

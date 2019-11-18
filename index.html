@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Análisis y Diseño de Algoritmos</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Proporciona Iconos fa fa-icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="videosT">
+        <div class="titulo">
+            <div>
+                <h3>Gráficas de ordenamiento</h3>
+                <i><h5>"Reproduce cualquier tipo de ordenamiento y observa el tiempo para ejecutarlo"</h5></i>
+            </div>
+        </div>
+    </div>
+    <div class="videosT">
+        <table>
+            <tr>
+                <td id="reproducirTodo" class="active">TODO <i class="fa fa-play prin"></td>
+                <td class="active">Selección <i class="fa fa-play"></i></td>
+                <td class="active">Inserción <i class="fa fa-play"></i></td>
+                <td class="active">Or_Merge <i class="fa fa-play"></i></td>
+                <td class="active">Or_Quick <i class="fa fa-play"></i></td>
+                <td class="active">Burbuja <i class="fa fa-play"></i></td>
+                <td class="active">Or_Shell <i class="fa fa-play"></i></td>
+                <td class="active">Or_Heap <i class="fa fa-play"></i></td>
+            </tr>
+            <!-- ------------------------------------------------------------------->
+            <tr>
+                <td class="active">Random <i class="fa fa-play"></i></td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_1" src="videos/vid1_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_2" src="videos/vid5_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice2"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause2"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_3" src="videos/vid9_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice3"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause3"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_4" src="videos/vid13_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice4"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause4"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_5" src="videos/vid17_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice5"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause5"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_6" src="videos/vid21_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice6"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause6"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_7" src="videos/vid25_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice7"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause7"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <!-- ------------------------------------------------------------------->
+            <tr>
+                <td class="active">Casi Ordenado <i class="fa fa-play"></i></td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_8" src="videos/vid2_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice8"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause8"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_9" src="videos/vid6_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice9"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause9"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_10" src="videos/vid10_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice10"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause10"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_11" src="videos/vid14_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice11"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause11"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_12" src="videos/vid18_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice12"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause12"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_13" src="videos/vid22_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice13"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause13"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_14" src="videos/vid26_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice14"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause14"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <!-- ------------------------------------------------------------------->
+            <tr>
+                <td class="active">Invertido <i class="fa fa-play"></i></td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_15" src="videos/vid3_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice15"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause15"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_16" src="videos/vid7_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice16"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause16"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_17" src="videos/vid11_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice17"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause17"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_18" src="videos/vid15_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice18"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause18"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_19" src="videos/vid19_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice19"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause19"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_20" src="videos/vid23_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice20"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause20"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_21" src="videos/vid27_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice21"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause21"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <!-- ------------------------------------------------------------------->
+            <tr>
+                <td class="active">Repetido <i class="fa fa-play"></i></td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_22" src="videos/vid4_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice22"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause22"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_23" src="videos/vid8_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice23"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause23"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_24" src="videos/vid12_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice24"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause24"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_25" src="videos/vid16_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice25"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause25"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_26" src="videos/vid20_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice26"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause26"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_27" src="videos/vid24_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice27"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause27"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="c-video">
+                        <video class="video v_28" src="videos/vid28_movie.mp4"></video>
+                        <div class="controls">
+                            <div class="progress_bar">
+                                <div class="progress_juice28"></div>
+                            </div>
+                            <div class="buttons">
+                                <button id="play-pause28"></button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p>Copyright&copy By Gerardo Portocarrero Banda</p>
+    </footer>
+</body>
+    <script src="script.js"></script>
+</html>
