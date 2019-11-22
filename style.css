@@ -143,14 +143,14 @@ body {
     cursor: pointer;
 }
 .buttons button:before {
-    content: url("https://img.icons8.com/ios/26/000000/play.png");
+    content: url("img/play.png");
     -webkit-font-smoothing: antialiased;
 }
 .buttons button.play:before {
-    content: url("https://img.icons8.com/ios/26/000000/play.png");
+    content: url("img/play.png");
 }
 .buttons button.pause:before {
-    content: url("https://img.icons8.com/ios/26/000000/pause.png");
+    content: url("img/pause.png");
 }
 .progress_bar {
     margin-top: -5px;
