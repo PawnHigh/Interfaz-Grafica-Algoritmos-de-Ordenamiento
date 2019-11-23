@@ -1,6 +1,6 @@
 # Interfaz-Grafica-Algoritmos-de-Ordenamiento
 Todos los Derechos Reservados: Gerardo Portocarrero Banda
->>> Código JavaScript será subido después de la revisión :)
+>>> Código JavaScript será cargado después de la revisión :)
 - Interfaz Gráfica
 
 ![alt tag](https://github.com/GerardoTBO/Interfaz-Grafica-Algoritmos-de-Ordenamiento/blob/master/docs_img/screen1.png)
